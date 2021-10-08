@@ -87,15 +87,15 @@ buttons = [
     [
         InlineKeyboardButton(
             text="➕ Добавить меня в чат ➕",
-            url="t.me/TheNatsukiBot?startgroup=true",
+            url="t.me/isIam008_bot?startgroup=true",
         ),
     ],
 ]
 
-NATSUKI_IMG = "https://telegra.ph/file/2d0fa7e07eb1fe3983aba.jpg"
+NATSUKI_IMG = "https://telegra.ph/file/c75e4fe590748070f56f6.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/2d0fa7e07eb1fe3983aba.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/c75e4fe590748070f56f6.jpg)
 
 /start: Starts me! You've probably already used this.
 /help: Click this, I'll let you know about myself!
@@ -111,7 +111,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [SADEW JAYASEKARA](t.me/Darkridersslk)"""
+Support them  [SADEW JAYASEKARA](t.me/isIam07)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -424,7 +424,7 @@ def Natsuki_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [SDBOTsInifinity](https://t.me/SDBOTs_Inifinity)."
+            f"\n\nBased on [SDBOTsInifinity](https://t.me/isIam07)."
             f"\n\n{dispatcher.bot.first_name}'s source code was written by Sadew Jayasekara"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
