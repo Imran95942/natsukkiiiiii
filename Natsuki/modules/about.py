@@ -1,5 +1,5 @@
 __help__ = """
-** ✨ Natsuki - A Powerful Telegram Group Manager ✨ **
+** ✨ Islam - A Powerful Telegram Group Manager ✨ **
 
 Powerful Abilities
 
@@ -11,9 +11,9 @@ Powerful Abilities
 
 • Channel Music Play 🎵
 
-Developer [SADEW JAYASEKARA](https://t.me/Darkridersslk)
+Developer [SADEW JAYASEKARA](https://t.me/isIam07)
 
-Support Group [Support](https://t.me/NatsukiSupport_Official)
+Support [Support](https://t.me/B0rz95)
 
 """
 __mod_name__ = "About ⚡"
