@@ -7,13 +7,13 @@ from .utils.message import get_args_str
 @register(cmds="Natsuki")
 @disableable_dec("Natsuki")
 async def _(message):
-    j = "Hello there my name is Natsuki"
+    j = "Hello there my name is Islam"
     await message.reply(j)
     
 
 __help__ = """
 <b>Hi</b>
-- /hi: Hello there my name is Natsuki
+- /hi: Hello there my name is Islam
 """
-__mod_name__ = "Natsuki"
+__mod_name__ = "Islam"
 ```
