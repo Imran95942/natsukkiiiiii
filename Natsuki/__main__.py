@@ -63,21 +63,22 @@ from Natsuki.modules.helper_funcs.misc import paginate_modules
 from Natsuki.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-👋 Я мощный бот-менеджер группы!
+Ассаламу 1алейкум, я бот-модератор чатов.
+Добавь меня в чат и дай мне права администратора,чтобы я мог модерировать твой чат.
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Владелец 🙋‍♂️", url="https://t.me/isIam07"
+            text="Разработчик 💻", url="https://t.me/isIam07"
         ),
         InlineKeyboardButton(
-            text=" ", url="https://t.me/isIam07"
+            text="Помощник", url="https://t.me/B0rz07"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="Source 🗒", url="Github.com/Sadew451"
+            text="Канал", url="https://t.me/https://t.me/LaCokaNostra"
         ),
         InlineKeyboardButton(
             text="Command Help ❓", callback_data="help_back"
@@ -85,7 +86,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add To Me Your Group ➕",
+            text="➕ Добавить меня в чат ➕",
             url="t.me/TheNatsukiBot?startgroup=true",
         ),
     ],
